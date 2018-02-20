@@ -6,4 +6,4 @@
 
 (def controllers
   (-> {:counter counter/controller}
-      (dataloader-controller/register datasoruces edb-schema)))
+      (dataloader-controller/register datasources edb-schema)))
