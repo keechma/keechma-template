@@ -2,7 +2,7 @@
 /checkouts
 /.lein-*
 /.nrepl-port
-/resourcers/public/js
+/resources/public/js
 /*-init.clj
 /*.log
 out

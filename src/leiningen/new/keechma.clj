@@ -27,6 +27,7 @@
              ["src/cljs/{{sanitized}}/subscriptions.cljs" (render "src/cljs/subscriptions.cljs" data)]
              ["src/cljs/{{sanitized}}/ui.cljs" (render "src/cljs/ui.cljs" data)]
              ["src/cljs/{{sanitized}}/controllers/counter.cljs" (render "src/cljs/controllers/counter.cljs" data)]
+             ["src/cljs/{{sanitized}}/forms.cljs" (render "src/cljs/forms.cljs" data)]
              ["src/cljs/{{sanitized}}/ui/main.cljs" (render "src/cljs/ui/main.cljs" data)]
 
              ["test/cljs/{{sanitized}}/core_test.cljs" (render "test/cljs/core_test.cljs" data)]
