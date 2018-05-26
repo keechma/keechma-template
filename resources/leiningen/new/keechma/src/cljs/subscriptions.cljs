@@ -10,5 +10,4 @@
      (get-in @app-db-atom (flatten [:kv key])))))
 
 (def subscriptions
-  (merge (dataloader/make-subscriptions datasources edb-schema)
-         {:counter (get-kv :counter)}))
+  {:counter (get-kv :counter)})
