@@ -1,9 +1,9 @@
 (defproject {{ns-name}} "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/clojurescript "1.10.238"]
-                 [reagent "0.7.0"]
-                 [keechma "0.3.6"]
-                 [keechma/toolbox "0.1.13"]]
+                 [reagent "0.8.1"]
+                 [keechma "0.3.8" :exclusions [cljsjs/react-with-addons cljsjs/react-dom cljsjs/react-dom-server]]
+                 [keechma/toolbox "0.1.15" :exclusions [cljsjs/react-with-addons cljsjs/react-dom cljsjs/react-dom-server]]]
 
   :min-lein-version "2.5.3"
 
