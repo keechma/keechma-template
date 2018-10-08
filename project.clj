@@ -1,4 +1,4 @@
-(defproject keechma/lein-template "0.1.6"
+(defproject keechma/lein-template "0.1.7"
   :description "Keechma Framework template"
   :url "http://keechma.com/"
   :license {:name "MIT"
