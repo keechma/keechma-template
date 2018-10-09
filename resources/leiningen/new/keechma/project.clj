@@ -3,7 +3,7 @@
                  [org.clojure/clojurescript "1.10.339"]
                  [reagent "0.8.1"]
                  [keechma "0.3.13" :exclusions [cljsjs/react-with-addons cljsjs/react-dom cljsjs/react-dom-server]]
-                 [keechma/toolbox "0.1.18" :exclusions [cljsjs/react-with-addons cljsjs/react-dom cljsjs/react-dom-server]]]
+                 [keechma/toolbox "0.1.19" :exclusions [cljsjs/react-with-addons cljsjs/react-dom cljsjs/react-dom-server]]]
 
   :min-lein-version "2.5.3"
 
